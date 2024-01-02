@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppkaZappkaXDD.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            HorizontalOptions="Center"
+            Spacing="10"
+            Padding="5">
+            
+            <Label
+                Text="KARTA"
+                FontSize="Header"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"/>
+
+            <Image
+                x:Name="cardImg"
+                Source="none.png"
+                WidthRequest="200"/>
+            
+            <Button
+                Clicked="OnLosujClicked"
+                WidthRequest="100"
+                Text="LOSUJ"/>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
