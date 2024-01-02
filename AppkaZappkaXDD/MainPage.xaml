@@ -19,13 +19,19 @@
                 x:Name="cardImg"
                 Source="none.png"
                 WidthRequest="200"/>
-            
-            <Button
-                Clicked="OnLosujClicked"
-                WidthRequest="100"
-                Text="LOSUJ"/>
 
-
+            <HorizontalStackLayout>
+                <Button
+                    Clicked="OnLosujClicked"
+                    WidthRequest="100"
+                    Text="LOSUJ"
+                    x:Name="losujBtn"
+                    IsEnabled="True"/>            
+                <Button
+                    Clicked="OnResetClicked"
+                    WidthRequest="100"
+                    Text="RESET"/>
+            </HorizontalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 
