@@ -26,12 +26,16 @@
                     WidthRequest="100"
                     Text="LOSUJ"
                     x:Name="losujBtn"
-                    IsEnabled="True"/>            
+                    IsEnabled="True"/>
                 <Button
                     Clicked="OnResetClicked"
                     WidthRequest="100"
                     Text="RESET"/>
             </HorizontalStackLayout>
+            <Label
+                x:Name="ileLbl"
+                HorizontalOptions="Center"
+                Text="Wylosowano: 0"/>
         </VerticalStackLayout>
     </ScrollView>
 
